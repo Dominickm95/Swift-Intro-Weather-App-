@@ -12,6 +12,7 @@ struct Order_System_1_1App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(LocationManager())
         }
     }
 }
